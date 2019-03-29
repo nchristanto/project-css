@@ -5,16 +5,17 @@ body {
 }
 
 .navigation {
-  padding: 10px 350px;
+  padding: 40px 375px;
   display: flex;
   justify-content: flex-around;
 }
 
 .navigation a {
-  padding: 0px 0px;
-  background-color: #a673fe;
-  margin: 0;
+  /* padding: 0px 0px;
+  background-color: #a673fe; */
+  /* margin: 0;
   display: flex-around;
+  text-align: center; */
 }
 
 .header {
@@ -36,5 +37,5 @@ body {
 }
 
 .header-image img {
-  width: 100%;
+  width: 102%;
 }
