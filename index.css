@@ -1,60 +1,126 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
+html {
+  background-color: #ffffff;
 }
 
-#header {
-  height: 84px;
+.container {
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .navigation {
-  display: table;
-  margin: 0 auto;
-}
-
-ul#navigation-list {
-  min-width: 696px;
-  list-style: none;
-  padding-top: 20px;
-}
-
-ul#navigation-list {
-  display: inline;
-} */
-
-/* .navigation {
-  padding: 40px 375px;
   display: flex;
-  justify-content: flex-around;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #a673fe;
 }
 
 .navigation a {
-  padding: 0px 47px;
-
-  background-color: #a673fe;
-  margin: 0;
-  font-weight: bold;
+  height: 30px;
+  padding: 0 80px;
+  margin-top: 50px;
+  color: #ffffff;
 }
 
-.header {
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  min-height: 40vh;
+.header-text {
   background-color: #a673fe;
 }
 
-.header h1 {
-  padding: 0px 0px;
-  background-color: #a673fe;
-  margin: 0;
+.header-text h1 {
+  height: 100px;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.header-text img {
   width: 100%;
+}
+
+.purple-background {
+  background-color: #a673fe;
+}
+
+.about-me-description img {
+  width: 20%;
+  height: 20%;
+  margin: 70px 200px;
+}
+
+.about-me-description h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.about-me-description {
+  align-content: center;
   text-align: center;
 }
 
-.header-image img {
-  width: 102%;
-} */
+.about-me-resume {
+  align-content: center;
+  text-align: center;
+}
+
+.aboutme-content-graphics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutme-content-graphics h3 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme-content-graphics p {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-component {
+  align-content: center;
+  text-align: center;
+}
+
+.project-component-portfolio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-component-portfolio img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 97%;
+  height: 95%;
+}
+
+.button-project-seemore {
+  align-content: center;
+  text-align: center;
+}
+
+.footer-component {
+  background-color: #a673fe;
+}
+
+.copyright-content {
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.copyright-content p {
+  margin-right: 20;
+}

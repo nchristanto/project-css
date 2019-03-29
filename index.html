@@ -10,29 +10,28 @@
 
   <body>
     <!-- Main -->
-    <div class="container">
+    <div id="container" class="container">
       <div class="purple-background">
         <!-- Navigation -->
-        <nav>
-          <ul class="navigation-link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="contact/index.html">Contact</a></li>
-          </ul>
+        <nav class="navigation">
+          <a href="index.html">Home</a>
+          <a href="#aboutme">About Me</a>
+          <a href="#project">Projects</a>
+          <a href="contact/index.html">Contact</a>
         </nav>
 
-        <header id="header-text" class="header-background">
+        <header id="header-text" class="header-text">
           <h1>Welcome to my site!</h1>
+          <img src="images/header.svg" alt="Header header-infographics" />
         </header>
       </div>
 
       <!-- About Me -->
       <section class="about-me">
-        <div id="about-me-content" class="about-me-content">
-          <img src="images/avatar.jpg" alt="Avatar" />
-          <h2 class="about-me-content-line">Hi I'm Chris. Nice to meet you.</h2>
-          <p class="about-me-content-description">
+        <div id="about-me-description" class="about-me-description">
+          <img class="about-me-avatar" src="images/avatar.jpg" alt="Avatar" />
+          <h2>Hi I'm Chris. Nice to meet you.</h2>
+          <p>
             I'm a Full stack Web Developer and Student at ImpactByte. My
             interest in technology started when I had my first career.
           </p>
@@ -57,7 +56,7 @@
         <!-- SkillBar -->
         <div id="aboutme-component-skillbar" class="aboutme-component-skillbar">
           <h3>Front-end</h3>
-          <p>Description of section></p>
+          <p>Description of section</p>
           <h3>Languages I speak</h3>
           <img src="images/skillbar.png" alt="Skillbar" />
         </div>
@@ -123,16 +122,15 @@
           </a>
         </div>
 
-        <div>
+        <div class="copyright-content">
           <p>
             Source code:
             <a href="https://github.com/nchrita835/project-html">
               https://github.com/nchrita835/project-html/
             </a>
           </p>
+          <p>Copyright &copy 2019 Nanda Christanto</p>
         </div>
-
-        <p>Copyright &copy 2019 Nanda Christanto</p>
       </footer>
     </div>
   </body>
