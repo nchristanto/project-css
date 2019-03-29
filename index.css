@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  justify-content: center;
+}
+
 .navigation {
   padding: 10px 0;
 }
