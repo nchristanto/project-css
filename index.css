@@ -36,6 +36,5 @@ body {
 }
 
 .header-image img {
-  width: 1043px;
-  height: 254px;
+  width: 100%;
 }
