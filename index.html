@@ -9,146 +9,131 @@
   </head>
 
   <body>
-    <div id="container" class="container">
-      <!-- <nav id="navigation" class="navigation">
-        <a href="index.html">Home</a>
-        <a href="#aboutme">About Me</a>
-        <a href="#project">Projects</a>
-        <a href="contact/index.html">Contact</a> -->
-      <!-- </nav> -->
-    </div>
-
-    
-      <header id="header" class="header">
-        <nav id="navigation" class="navigation">
-          <a href="index.html">Home</a>
-          <a href="#aboutme">About Me</a>
-          <a href="#project">Projects</a>
-          <a href="contact/index.html">Contact</a>
+    <!-- Main -->
+    <div class="container">
+      <div class="purple-background">
+        <!-- Navigation -->
+        <nav>
+          <ul class="navigation-link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+          </ul>
         </nav>
-        <h1>Welcome to my site!</h1>
-      </header>
-      
-      <section id="header-image" class="header-image">
-        <img src="images/header.svg" alt="Header Image">
+
+        <header id="header-text" class="header-background">
+          <h1>Welcome to my site!</h1>
+        </header>
+      </div>
+
+      <!-- About Me -->
+      <section class="about-me">
+        <div id="about-me-content" class="about-me-content">
+          <img src="images/avatar.jpg" alt="Avatar" />
+          <h2 class="about-me-content-line">Hi I'm Chris. Nice to meet you.</h2>
+          <p class="about-me-content-description">
+            I'm a Full stack Web Developer and Student at ImpactByte. My
+            interest in technology started when I had my first career.
+          </p>
+        </div>
       </section>
 
-      <section id="scroll" class="scroll">
-        <h4>Learn more about what I do</h4>
-        <img src="images/down-arrow.png" alt="Down Arrow" />
-      </section>
-    
-    <!--Main-->
-    <main id="content" class="content">
-      <section id="aboutme" class="aboutme">
-        <img src="images/avatar.jpg" alt="Avatar" />
-        <h2 id="content-header" class= content-header>
-          Hi I'm Chris. Nice to meet you.
-        </h2>
-
-        <p class="content-description">
-          I'm a Full stack Web Developer and Student at ImpactByte. My interest
-          in technology started when I had my first career.
-        </p>
-      </section>
-
-      <section id="content-resume" class="content-resume">
+      <!-- Resume Button -->
+      <section class="about-me-resume">
         <button>Resume</button>
         <button>Dev Story</button>
       </section>
 
-      <div id="aboutme-componenent-treemap" class="aboutme-componenent-treemap">
-        <img src="images/aboutme-component.svg" alt="Aboutme Component" />
-        <p class="aboutme-component-header">Topic of Interest</p>
-        <p class="aboutme-component-header-description">Description of topic</p>
-        <p>Area of interest</p>
+      <!-- Tree Map -->
+      <section class="aboutme-content-graphics">
+        <div id="aboutme-component-treemap" class="aboutme-componenent-treemap">
+          <h3>Topic of Interest</h3>
+          <p>Description of section</p>
+          <h3>Area of Interest</h3>
+          <img src="images/treemap.png" alt="Treemap" />
+        </div>
+
+        <!-- SkillBar -->
+        <div id="aboutme-component-skillbar" class="aboutme-component-skillbar">
+          <h3>Front-end</h3>
+          <p>Description of section></p>
+          <h3>Languages I speak</h3>
+          <img src="images/skillbar.png" alt="Skillbar" />
+        </div>
+
+        <!-- Donut Chart -->
+        <div
+          id="aboutme-component-donutchart"
+          class="aboutme-component-donutchart"
+        >
+          <h3>Back-end</h3>
+          <p>Description of section</p>
+          <h3>My knowledge</h3>
+          <img src="images/donutchart.png" alt="Donut Chart" />
+        </div>
+      </section>
+
+      <!-- Project -->
+      <div id="project-component" class="project-component">
+        <h1>Projects</h1>
+        <span>Here is some of my recent work. Want to know more email me.</span>
       </div>
 
-      <div id="aboutme-component-"> 
-        <ul>
-          <li>Analytics</li>
-          <li>Machine Learning</li>
-        </ul>
-      </div>
-
-      <p>Front-end</p>
-      <p>Description of front-end</p>
-      <p>Languages I speak</p>
-      <div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-      </div>
-
-      <p>Back-end</p>
-      <p>Description of back-end</p>
-      <p>My knowledge</p>
-      <div>
-        <ul>
-          <li>Node. js</li>
-        </ul>
-      </div>
-
-      <section id="project">
-        <h1>
-          Projects
-        </h1>
-
-        <p>
-          Here is some of my recent work. Want to know more email me.
-        </p>
-        
-        <div>
+      <!-- Studioheap -->
+      <section class="project-component-portfolio">
+        <div id="project-component-portfolio-studioheap">
           <a href="https://studioheap.com">
             <img src="images/project-studioheap.png" alt="Studioheap" />
           </a>
-
-          <p>
-            studioheap is a marketplace to book studio music nearest to you!
-          </p>
         </div>
 
-        <div> 
+        <!-- Todo app -->
+        <div id="project-component-portfolio-todoapp">
           <a href="">
             <img src="images/project-todoapp.png" alt="Project Todoapp" />
           </a>
-
-          <p>description of the project</p>
         </div>
 
-        <div>
+        <!-- Project mobile -->
+        <div
+          id="project-component-portfolio-mobile"
+          class="project-component-portfolio-mobile"
+        >
           <a href="">
-            <img src="images/project-mobile.svg" alt="Project Mobile">
+            <img src="images/project-mobile.svg" alt="Project Mobile" />
           </a>
-
-          <p>description of the project</p>
-        </div> 
+        </div>
       </section>
 
-      <section>
+      <!-- Button project -->
+      <section class="button-project-seemore">
         <button>See More</button>
       </section>
 
-    <!--Footer-->
-    <footer>
-      <a href="https://github.com/nchrita835">
-        <img src="images/github-logo.png" alt="Github Image" />
-      </a>
+      <!--Footer-->
+      <footer class="footer-component">
+        <div id="footer-component-icon" class="footer-component-icon">
+          <a href="https://github.com/nchrita835">
+            <img src="images/github-logo.png" alt="Github Image" />
+          </a>
 
-      <a href="https://linkedin.com/in/nanda-christanto-165194b6/">
-        <img src="images/linkedin-logo.png" alt="Linkedin Image" />
-      </a>
+          <a href="https://linkedin.com/in/nanda-christanto-165194b6/">
+            <img src="images/linkedin-logo.png" alt="Linkedin Image" />
+          </a>
+        </div>
 
-      <p>
-        Source code:
-        <a href="https://github.com/nchrita835/project-html">
-          https://github.com/nchrita835/project-html/
-        </a>
-      </p>
+        <div>
+          <p>
+            Source code:
+            <a href="https://github.com/nchrita835/project-html">
+              https://github.com/nchrita835/project-html/
+            </a>
+          </p>
+        </div>
 
-      <p>Copyright &copy 2019 Nanda Christanto</p>
-    </footer>
+        <p>Copyright &copy 2019 Nanda Christanto</p>
+      </footer>
+    </div>
   </body>
 </html>
