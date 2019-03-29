@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  height: 30px;
+  padding: 0 80px;
+  margin-top: 50px;
+  color: black;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+}
+
+form {
+  align-content: center;
+  text-align: center;
+}
+
+.copyright-content {
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  text-align: right;
+  background-color: #a673fe;
+}
