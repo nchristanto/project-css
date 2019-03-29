@@ -8,48 +8,51 @@
   </head>
 
   <body>
-    <nav>
+    <nav id="navigation" class="navigation">
       <a href="index.html">Home</a>
       <a href="#aboutme">About Me</a>
       <a href="#project">Projects</a>
       <a href="contact/index.html">Contact</a>
     </nav>
 
-    <!--Main-->
-    <main>
-      <h1>
-        Welcome to my site!
-      </h1>
+    
+    <header id="header" class="header">
+      <h1>Welcome to my site!</h1>
       <img src="images/header.svg" alt="Picture Header" />
+    </header>
 
-      <h4>
-        Learn more about what I do
-      </h4>
-
+    <section id="scroll" class="scroll">
+      <h4>Learn more about what I do</h4>
       <img src="images/down-arrow.png" alt="Down Arrow" />
-
-      <section id="aboutme">
+    </section>
+    
+    <!--Main-->
+    <main id="content" class="content">
+      <section id="aboutme" class="aboutme">
         <img src="images/avatar.jpg" alt="Avatar" />
-        <h1>
+        <h1 id="content-header" class= content-header>
           Hi I'm Chris. Nice to meet you.
         </h1>
 
-        <p>
+        <p class="content-description">
           I'm a Full stack Web Developer and Student at ImpactByte. My interest
           in technology started when I had my first career.
         </p>
       </section>
 
-      <section>
+      <section id="content-resume" class="content-resume">
         <button>Resume</button>
         <button>Dev Story</button>
       </section>
 
-      <img src="images/aboutme-component.svg" alt="Aboutme Component" />
-      <p>Topic of Interest</p>
-      <p>Description of topic</p>
-      <p>Area of interest</p>
-      <div>
+      <div id="aboutme-componenent-treemap" class="aboutme-componenent-treemap">
+        <img src="images/aboutme-component.svg" alt="Aboutme Component" />
+        <p class="aboutme-component-header">Topic of Interest</p>
+        <p class="aboutme-component-header-description">Description of topic</p>
+        <p>Area of interest</p>
+      </div>
+
+      <div id="aboutme-component-"> 
         <ul>
           <li>Analytics</li>
           <li>Machine Learning</li>
