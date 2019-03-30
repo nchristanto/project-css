@@ -1,5 +1,9 @@
-html {
+/* html {
   background-color: #ffffff;
+} */
+
+body {
+  margin: 0px;
 }
 
 .container {
@@ -12,7 +16,7 @@ html {
 .navigation {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 0px;
   background-color: #a673fe;
 }
 
@@ -48,19 +52,25 @@ html {
 .about-me-description img {
   width: 20%;
   height: 20%;
-  margin: 70px 200px;
+  margin: 70px 100px;
 }
 
 .about-me-description h2 {
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-evenly;
   flex-direction: column;
   font-size: 30px;
+  padding: 40px 0px 0px 0px;
+}
+
+.about-me-description p {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me-description {
-  align-content: center;
+  display: flex;
   text-align: center;
 }
 
@@ -72,6 +82,27 @@ html {
 .aboutme-content-graphics {
   display: flex;
   justify-content: space-evenly;
+}
+
+.aboutme-component-treemap {
+  border-width: 4px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.aboutme-component-skillbar {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.aboutme-component-donutchart {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .aboutme-content-graphics h3 {
@@ -88,9 +119,15 @@ html {
   align-items: center;
 }
 
+.aboutme-content-graphics img {
+  width: 250px;
+  padding: 30px;
+}
+
 .project-component {
   align-content: center;
   text-align: center;
+  padding: 40px;
 }
 
 .project-component-portfolio {
@@ -108,19 +145,30 @@ html {
 .button-project-seemore {
   align-content: center;
   text-align: center;
+  padding: 0px 0px 40px 0px;
 }
 
 .footer-component {
   background-color: #a673fe;
+  padding: 20px;
+}
+
+.footer-component img {
+  height: 20px;
+  align-content: right;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .copyright-content {
   bottom: 0;
   right: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   text-align: right;
+  padding-bottom: 10px;
 }
 
 .copyright-content p {
-  margin-right: 20;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
