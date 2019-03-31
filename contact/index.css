@@ -11,6 +11,8 @@ body {
 h1,
 h2 {
   font-family: "Oswald";
+  align-content: center;
+  text-align: center;
 }
 
 h3 {
@@ -34,11 +36,6 @@ p {
   padding: 0 80px;
   margin-top: 50px;
   color: white;
-}
-
-h1 {
-  align-content: center;
-  text-align: center;
 }
 
 .footer-component {
