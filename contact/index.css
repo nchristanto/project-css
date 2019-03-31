@@ -41,8 +41,27 @@ h1 {
   text-align: center;
 }
 
+.contact-form {
+  text-align: center;
+  align-content: center;
+  padding: 0px 0px 0px 220px;
+}
+
+.input {
+  width: 600px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+#message {
+  height: 100px;
+  padding-top: 15px;
+}
+
 .btn {
-  display: block;
+  width: 615px;
+  height: 60px;
   padding: 14px 0;
   text-align: center;
   align-content: center;
