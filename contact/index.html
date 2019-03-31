@@ -16,30 +16,49 @@
       <link rel="stylesheet" href="index.css" />
     </nav>
 
-    <h1>
-      Contact
-    </h1>
+    <section class="contact">
+      <div class="contact-form">
+        <h1>Contact</h1>
+        <div class="contact-form-txtb">
+          <input
+            type="text"
+            id="contact-fname"
+            name="firstname"
+            placeholder="Name"
+          />
+        </div>
+        <div class="contact-form-txtb">
+          <input
+            type="text"
+            id="contact-email"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="contact-form-txtb">
+          <textarea></textarea>
+          <input class="btn" type="submit" value="Submit" />
+        </div>
+      </div>
+    </section>
 
-    <form action=" /action_page.php">
-      <input type="text" name="firstname" value="Name" />
-      <input type="text" name="yourmessage" value="Your Message" />
-      <br /><br />
-      <input type="text" name="email" value="Email" />
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
-
-    <footer class="copyright-content">
-      <p>
-        Source Code:
-        <a href="https://github.com/nchrita835/project-html/">
-          https://github.com/nchrita835/project-html/
+    <footer class="footer-component">
+      <div class="copyright-content">
+        <a href="https://github.com/nchrita835">
+          <img src="../images/github-logo.png" alt="Github Image" />
         </a>
-      </p>
 
-      <p>
-        Copyright &copy 2019 Nanda Christanto
-      </p>
+        <a href="https://linkedin.com/in/nanda-christanto-165194b6/">
+          <img src="../images/linkedin-logo.png" alt="Linkedin Image" />
+        </a>
+        <p>
+          Source code:
+          <a href="https://github.com/nchrita835/project-html">
+            https://github.com/nchrita835/project-html/
+          </a>
+        </p>
+        <p>Copyright &copy 2019 Nanda Christanto</p>
+      </div>
     </footer>
   </body>
 </html>

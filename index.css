@@ -1,7 +1,3 @@
-/* html {
-  background-color: #ffffff;
-} */
-
 body {
   margin: 0px;
 }
@@ -156,8 +152,6 @@ body {
 .footer-component img {
   height: 20px;
   align-content: right;
-  /* display: flex;
-  justify-content: flex-end; */
 }
 
 .copyright-content {
